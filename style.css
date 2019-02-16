@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 30px 0;
+    background-color: darkgoldenrod;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 0;
+    text-align: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.hamburger{
+    display: flex;
+    width: 100%;
+}
+.esconde{
+    display: none;
+    transition: 1s;
+}
